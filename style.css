@@ -491,7 +491,7 @@ a {
 }
 
 .product {
-	width: 22%;
+	width: 30%;
 }
 
 .product-img {
@@ -510,6 +510,11 @@ a {
 
 .product-info {
 }
+
+.prod-parag {
+	margin-top: 10%;
+}
+
 .heading-link {
 }
 .main-news-text {
