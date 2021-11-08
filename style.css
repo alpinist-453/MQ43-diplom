@@ -491,7 +491,8 @@ a {
 }
 
 .product {
-	width: 30%;
+	width: 29%;
+	display: flex;
 }
 
 .product-img {
@@ -503,27 +504,50 @@ a {
 .product-description {
 	position: relative;
 	margin-top: -10%;
-	padding: 16% 5% 20% 5%;
+	padding: 16% 5% 7% 5%;
 	border: 3px solid #b59f5b;
 	z-index: 1;
 }
 
-.product-info {
+.product-infolink {
+	color: #b59f5b;
 }
 
 .prod-parag {
 	margin-top: 10%;
 }
 
-.heading-link {
-}
-.main-news-text {
-}
 .product-pricelink {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 5%;
 }
+
 .price {
+	font-family: OpenSans-Bold;
+	font-weight: bold;
 }
-.link {
+
+.price-sale {
+	font-size: 16px;
+	text-decoration: line-through;
+}
+
+.price-discount {
+	font-size: 20px;
+}
+
+.button-link {
+	width: 140px;
+	height: 50px;
+	background-color: #b59f5b;
+	font-family: OpenSans-Bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #ffffff;
+	border: none;
+	cursor: pointer;
 }
 
 /* --------------Подвал------------- */
