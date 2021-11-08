@@ -230,7 +230,7 @@ a {
 	color: #0f0d0e;
 	text-transform: uppercase;
 	font-family: OpenSans-Bold;
-	line-height: 5px;
+	line-height: 1.2em;
 }
 
 .heading-link:hover {
@@ -504,7 +504,7 @@ a {
 .product-description {
 	position: relative;
 	margin-top: -10%;
-	padding: 16% 5% 7% 5%;
+	padding: 16% 5% 5% 5%;
 	border: 3px solid #b59f5b;
 	z-index: 1;
 }
