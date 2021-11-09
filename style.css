@@ -13,18 +13,18 @@ a {
 
 @font-face {
 	font-family: "OpenSans-Regular";
-	src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+	src: url(fonts/OpenSans-Regular.woff);
 }
 
 @font-face {
 	font-family: "OpenSans-Bold";
-	src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+	src: url(fonts/OpenSans-Bold.woff);
 }
 
 /* ------------Шапка--------------- */
 
 .header {
-	background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
+	background-image: url(images/banner-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #000000;
@@ -492,21 +492,29 @@ a {
 
 .product {
 	width: 29%;
+}
+.product-category {
+	height: 100%;
 	display: flex;
+	flex-direction: column;
 }
 
-.product-img {
-	display: block;
-	margin: 0 auto;
+.product-picture {
+	margin: auto;
 	max-width: 90%;
+}
+
+.product-picture__img {
+	max-width: 100%;
 }
 
 .product-description {
 	position: relative;
 	margin-top: -10%;
-	padding: 16% 5% 5% 5%;
+	padding: 15% 5% 5% 5%;
 	border: 3px solid #b59f5b;
 	z-index: 1;
+	flex: 1;
 }
 
 .product-infolink {
@@ -514,7 +522,7 @@ a {
 }
 
 .prod-parag {
-	margin-top: 10%;
+	margin-top: 3%;
 }
 
 .product-pricelink {
