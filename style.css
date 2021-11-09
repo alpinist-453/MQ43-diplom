@@ -46,7 +46,7 @@ a {
 }
 
 .header-menu {
-	width: 1163px;
+	width: 70%;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
@@ -96,6 +96,11 @@ a {
 	z-index: 2;
 }
 
+@media (max-width: 768px) {
+	.header {
+		background-image: url(images/banner-mobile.jpg);
+	}
+}
 /* ------ тренды -------*/
 
 .trends {
@@ -169,17 +174,45 @@ a {
 	z-index: 1;
 }
 
+@media (min-width: 768px) and (max-width: 1280px) {
+	.trends-contener {
+		flex-wrap: wrap;
+		align-content: space-between;
+	}
+
+	.trend {
+		width: 49.8%;
+	}
+
+	.trend:nth-child(n + 3):nth-child(-n + 4) {
+		margin-top: 0.4%;
+	}
+}
+
+@media (max-width: 767px) {
+	.trends-contener {
+		flex-wrap: wrap;
+		align-content: space-between;
+	}
+
+	.trend {
+		width: 100%;
+		margin-top: 0.2%;
+	}
+}
+
+
 /* -------------------------------------- */
 
 .page {
-	width: 1170px;
+	width: 70%;
 	margin: 0 auto 65px;
 	display: flex;
 	justify-content: space-between;
 }
 
 .main {
-	width: 780px;
+	width: 70%;
 }
 
 .main-news-item {
@@ -264,6 +297,30 @@ a {
 .main-news-text p:nth-child(1n + 2) {
 	margin-top: 10px;
 }
+
+
+@media (min-width: 768px) and (max-width: 1280px) {
+	.main-news-item {
+		flex-direction: column;
+	}
+
+	.page {
+	width: 90%;
+	}
+
+	.main {
+		margin: 0 auto;
+	}
+
+	.main-news-info {
+		margin-left: 0;
+		width: 80%;
+		
+	}
+
+}
+
+
 
 /* -------------------------------- */
 
