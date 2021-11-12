@@ -303,12 +303,13 @@ a {
 }
 
 .main-news-img {
+	margin: 0 auto;
 	/* max-width: 100%;
 	max-height: 100%; */
 }
 
 .main-news-info {
-	margin-left: 5%;
+	margin: auto;
 }
 
 .category-list {
@@ -387,6 +388,7 @@ a {
 
 	.main {
 		width: 95%;
+		margin: 0 a;
 	}
 
 	.main-news-imge {
@@ -420,7 +422,6 @@ a {
 	}
 
 	.main-news-info {
-		margin-left: 0;
 		width: 380px;
 	}
 }
