@@ -421,6 +421,7 @@ a {
 	}
 
 	.main-news-info {
+		margin: 0 auto;
 		width: 380px;
 	}
 }
